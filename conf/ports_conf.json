@@ -1,0 +1,28 @@
+{
+  "ports": {
+    "STIRRER_BARS_DISPENSER": "/dev/ttyACM0",
+    "HOLDER_PORT": "/dev/ttyACM1",
+    "LIGHTBOX_PORT": "/dev/ttyACM2",
+    "CAPPER_PORT": "/dev/ttyACM3",
+    "FILTERINGSTATION_PORT": "/dev/ttyACM4",
+    "IKA_PORT": "/dev/ttyUSB0",
+    "QUANTOS_PORT": "/dev/ttyUSB1",
+    "PUMP_PORT": "/dev/ttyUSB2",
+    "ACID_PUMP_PORT": "/dev/ttyUSB3",
+    "FILTRATIONPUMP_PORT": "/dev/ttyUSB4",
+    "SHAKER_PORT": "/dev/ttyACM5000"
+  },
+  "camera_ids": {
+    "CAPPER_CAMERA_ID": 0,
+    "LIGHTBOX_CAMERA_ID": 0
+  },
+  "grasps": {
+    "VIAL_GRASP": 0.0215,
+    "CAP_GRASP": 0.03,
+    "QUANTOS_CARTRIDGE_GRASP": 0.03,
+    "FILTERING_CARTRIDGE_GRASP": 0.05
+  },
+  "network": {
+    "PANDA_IP": "172.16.0.2"
+  }
+}
